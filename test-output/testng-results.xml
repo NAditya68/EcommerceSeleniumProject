@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-23T17:41:23 IST" name="Default suite" finished-at="2023-12-23T17:41:58 IST" duration-ms="35520">
+  <suite started-at="2023-12-24T19:00:46 IST" name="Suite" finished-at="2023-12-24T19:04:00 IST" duration-ms="194426">
     <groups>
     </groups>
-    <test started-at="2023-12-23T17:41:23 IST" name="Default test" finished-at="2023-12-23T17:41:58 IST" duration-ms="35520">
+    <test started-at="2023-12-24T19:00:46 IST" name="Test2" finished-at="2023-12-24T19:01:07 IST" duration-ms="21050">
+      <class name="tests.Test2">
+        <test-method signature="test2()[pri:0, instance:tests.Test2@dbd8e44]" started-at="2023-12-24T19:00:46 IST" name="test2" finished-at="2023-12-24T19:01:06 IST" duration-ms="20427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- tests.Test2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-12-24T19:00:46 IST" name="LoginTest" finished-at="2023-12-24T19:02:19 IST" duration-ms="93015">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:23 IST" name="urlopening" finished-at="2023-12-23T17:41:27 IST" duration-ms="4108" status="PASS">
+        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:00:46 IST" name="urlopening" finished-at="2023-12-24T19:01:04 IST" duration-ms="18631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlopening -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:27 IST" name="login" data-provider="getData" finished-at="2023-12-23T17:41:34 IST" duration-ms="6416" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:01:07 IST" name="login" data-provider="getData" finished-at="2023-12-24T19:01:31 IST" duration-ms="23766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +40,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:34 IST" name="closeBrowser" finished-at="2023-12-23T17:41:34 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:01:31 IST" name="closeBrowser" finished-at="2023-12-24T19:01:33 IST" duration-ms="2027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:34 IST" name="urlopening" finished-at="2023-12-23T17:41:42 IST" duration-ms="8218" status="PASS">
+        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:01:33 IST" name="urlopening" finished-at="2023-12-24T19:02:02 IST" duration-ms="29009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlopening -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:42 IST" name="login" data-provider="getData" finished-at="2023-12-23T17:41:58 IST" duration-ms="16265" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:02:02 IST" name="login" data-provider="getData" finished-at="2023-12-24T19:02:18 IST" duration-ms="16801" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +69,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:58 IST" name="closeBrowser" finished-at="2023-12-23T17:41:58 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-24T19:02:18 IST" name="closeBrowser" finished-at="2023-12-24T19:02:19 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-12-24T19:00:46 IST" name="Test3" finished-at="2023-12-24T19:04:00 IST" duration-ms="194426">
+      <class name="tests.Test3">
+        <test-method signature="test2()[pri:0, instance:tests.Test3@2f1de2d6]" started-at="2023-12-24T19:00:46 IST" name="test2" finished-at="2023-12-24T19:04:00 IST" duration-ms="194357" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-150-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce5ec3a2251e1ceed6be3d307f1c6e7b, get {url=https://www.pelatro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44811/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce5ec3a2251e1ceed6be3d307f1c6e7b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-150-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce5ec3a2251e1ceed6be3d307f1c6e7b, get {url=https://www.pelatro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44811/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce5ec3a2251e1ceed6be3d307f1c6e7b
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:402)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+at tests.Test3.test2(Test3.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- tests.Test3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>
