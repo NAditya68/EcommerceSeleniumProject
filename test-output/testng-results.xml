@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T21:32:05 IST" name="Default suite" finished-at="2023-12-17T21:32:05 IST" duration-ms="186">
+  <suite started-at="2023-12-23T17:41:23 IST" name="Default suite" finished-at="2023-12-23T17:41:58 IST" duration-ms="35520">
     <groups>
     </groups>
-    <test started-at="2023-12-17T21:32:05 IST" name="Default test" finished-at="2023-12-17T21:32:05 IST" duration-ms="186">
-      <class name="tests.Test2">
-        <test-method signature="test2()[pri:0, instance:tests.Test2@4c1f22f3]" started-at="2023-12-17T21:32:05 IST" name="test2" finished-at="2023-12-17T21:32:05 IST" duration-ms="71" status="PASS">
+    <test started-at="2023-12-23T17:41:23 IST" name="Default test" finished-at="2023-12-23T17:41:58 IST" duration-ms="35520">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:23 IST" name="urlopening" finished-at="2023-12-23T17:41:27 IST" duration-ms="4108" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- tests.Test2 -->
+        </test-method> <!-- urlopening -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:27 IST" name="login" data-provider="getData" finished-at="2023-12-23T17:41:34 IST" duration-ms="6416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aditya123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cricket100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:34 IST" name="closeBrowser" finished-at="2023-12-23T17:41:34 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="urlopening()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:34 IST" name="urlopening" finished-at="2023-12-23T17:41:42 IST" duration-ms="8218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlopening -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:42 IST" name="login" data-provider="getData" finished-at="2023-12-23T17:41:58 IST" duration-ms="16265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aditya1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@38aa816f]" started-at="2023-12-23T17:41:58 IST" name="closeBrowser" finished-at="2023-12-23T17:41:58 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
