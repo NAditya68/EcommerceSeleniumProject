@@ -1,0 +1,1 @@
+{"uuid":"5c6e383d-c890-479e-8a64-e47e5a75c7ea","name":"tests.LoginTest.urlopening","children":["83efb953-0d57-4a75-bfb4-69327675caa4"],"description":"","befores":[{"name":"urlopening","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1703517261303,"stop":1703517266453}],"afters":[],"start":1703517261303,"stop":1703517266453}
