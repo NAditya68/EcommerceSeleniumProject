@@ -23,7 +23,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class LoginTest extends Baseclass {
-	WebDriver driver;
+	public WebDriver driver;
 	Logger log;
 
 	@BeforeMethod
@@ -77,7 +77,7 @@ public class LoginTest extends Baseclass {
 
 	@DataProvider
 	public Object[][] getData() {
-		Object[][] data = { { "aditya123@gmail.com", "cricket100", "Successfull" },
+		Object[][] data = { { "aditya123@gmail.com", "cricket1001", "Successfull" },
 				{ "aditya1234@gmail.com", "dummy123", "Failed" } };
 		return data;
 	}
