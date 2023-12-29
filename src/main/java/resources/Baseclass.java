@@ -35,12 +35,12 @@ public class Baseclass {
 
 	}
 
-	public void takeScreenshot(String testName, WebDriver driver) throws IOException {
+	public String takeScreenshot(String testName, WebDriver driver) throws IOException {
 
 		File SourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String destinationFilePath = System.getProperty("user.dir") + "/screenshots/" + testName + ".png";
 		FileUtils.copyFile(SourceFile, new File(destinationFilePath));
-
+		return destinationFilePath;
 	}
 
 }

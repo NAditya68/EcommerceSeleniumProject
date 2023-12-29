@@ -77,7 +77,7 @@ public class LoginTest extends Baseclass {
 
 	@DataProvider
 	public Object[][] getData() {
-		Object[][] data = { { "aditya123@gmail.com", "cricket1001", "Successfull" },
+		Object[][] data = { { "aditya123@gmail.com", "cricket100", "Successfull" },
 				{ "aditya1234@gmail.com", "dummy123", "Failed" } };
 		return data;
 	}
